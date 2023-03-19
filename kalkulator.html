@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+ 
+</head>
+<body class="body">
+   
+       
+          <div class="alert alert-info" role="alert">
+           <p class="p">Kalkulatorku</p> 
+          </div>aa
+          
+          <div id="angka">
+            <input class="form-control form-control-sm" type="text" name="bil1" type="text" value="" id="angka1" placeholder="Angka 1" aria-label=".form-control-sm example">
+            <!--input class="angka" name="bil1" type="text" value="" id="angka1" placeholder="Angka 1"/--> 
+          </div>
+          <div class="angka">
+            <input class="form-control form-control-sm" type="text" name="bil2" type="text" value="" id="angka2" placeholder="Angka 2" aria-label=".form-control-sm example">
+            <!--input class="angka" name="bil2" type="text" value="" id="angka2" placeholder="Angka 2"/-->
+          </div>
+          <div class="angka3">
+            <input class="form-control form-control-sm" type="text"  name="hasil" value="" id="hasil">
+            <!--input class="angka" name="hasil" type="text" value="0" id="hasil" /--> 
+          </div>
+          
+        <div id="button">
+            <button name="hitung" value="+" onclick="hitung(this.value)" type="button" class="btn btn-primary">+</button>
+            <button name="hitung" value="-" onclick="hitung(this.value)" type="button" class="btn btn-info">-</button>
+            <button name="hitung" value="*" onclick="hitung(this.value)" type="button" class="btn btn-success">x</button>
+            <button name="hitung" value="/" onclick="hitung(this.value)" type="button" class="btn btn-warning">/</button>
+            <button name="hitung" value="**" onclick="hitung(this.value)" type="button" class="btn btn-danger">^</button> 
+
+        </div>
+
+        <form id="formtlp">
+
+           
+        </form>
+        <script type="text/javascript" src="JS/calc.js"></script></script>
+</body>
+</html>
